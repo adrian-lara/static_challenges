@@ -9,17 +9,30 @@ body h1 a {
   font-size: 16;
   align-items: flex-end;
 }
-body h2 a {
+body h2 {
   color: white;
   font-size: 16;
   background-color: gray;
 }
+body h2 a {
+  color: white;
+}
 body h3 {
   background-color: white;
   color: black;
-  font-size: 10;
+  font-size: 14;
+}
+img {
+  display: block;
+  max-width: 65%;
+}
+body h3 a {
+  display: block;
+  font-weight: bold;
+  font-size: 16
 }
 footer {
+  background-color: gray;
   color: white;
   font-size: 16;
 }
